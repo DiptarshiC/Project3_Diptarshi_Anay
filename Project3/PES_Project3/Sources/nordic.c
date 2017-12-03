@@ -74,7 +74,11 @@ uint8_t nrf_read_status(){
 
 	uint8_t a;
 
+	nrf_chip_enable();
+
 	a= nrf_read_register(NORDIC_STATUS_REG);
+
+	nrf_chip_disable();
 
 	return a;
 }
@@ -181,9 +185,9 @@ uint8_t nrf_read_rf_ch(){
  *
  */
 void nrf_write_rf_ch(uint8_t channel){
+
 	nrf_chip_enable();
 	nrf_write_register(NORDIC_RF_CH_REG,channel);
-
 	nrf_chip_disable();
 }
 
