@@ -10,7 +10,8 @@
  */
 
 #include <stdint.h>
-
+#include "spi.h"
+#include "MKL25Z4.h"
 /**
  * @brief a function that initializes the spi module
  *
@@ -23,18 +24,23 @@
  */
 
 void SPI_init(){
-	SIM_SCGC5|=SIM_SCGC5_PORTD_MASK;// TURNS ON CLOCK TO D MODULE
+
+	SIM_SCGC5 |=SIM_SCGC5_PORTD_MASK;// TURNS ON CLOCK TO D MODULE
 	SIM_SCGC4 |= SIM_SCGC4_SPI0_MASK;//ENABLES THE SPIO CLOCK
 
-	PORTD_PCR0|=PORT_PCR_MUX(0x2);// MUX FOR SPI0_PCS0 PIN
-	PORTD_PCR1|=PORT_PCR_MUX(0x2);// MUX FOR SPI0_SCK PIN
-	PORTD_PCR2|=PORT_PCR_MUX(0x2);// MUX FOR SPI0_MOSI PIN
-	PORTD_PCR3|=PORT_PCR_MUX(0x2);// MUX FOR SPI0_MISO PIN
+	PTD_BASE_PTR->PDDR |= 1;
+	PTD_BASE_PTR->PDOR |= 1;
 
-	SPI0_C1|=SPI_C1_MSTR_MASK;//SPI0 IS SET TO MASTER MODE
+	PORTD_PCR0|=PORT_PCR_MUX(1);// MUX FOR SPI0_PCS0 PIN
+	PORTD_PCR1|=PORT_PCR_MUX(2);// MUX FOR SPI0_SCK PIN
+	PORTD_PCR2|=PORT_PCR_MUX(2);// MUX FOR SPI0_MOSI PIN
+	PORTD_PCR3|=PORT_PCR_MUX(2);// MUX FOR SPI0_MISO PIN
+
+	SPI0_C1=SPI_C1_MSTR_MASK;//SPI0 IS SET TO MASTER MODE
+
 	SPI0_C1|=SPI_C1_SSOE_MASK;//SS pin function is automatic SS output
-	SPI0_C2|=SPI_C2_MODFEN_MASK; //IN THE MASTER MODE THE SS PIN SERVES AS THE SLAVE SELECT INPUT
-	SPI0_BR|=SPI_BR_SPPR(0x02);//BAUD PRESCALER DIVISOR TO 3
+	SPI0_C2=SPI_C2_MODFEN_MASK; //IN THE MASTER MODE THE SS PIN SERVES AS THE SLAVE SELECT INPUT
+	SPI0_BR=SPI_BR_SPPR(0x02);//BAUD PRESCALER DIVISOR TO 3
 	SPI0_BR|=SPI_BR_SPR(0x08);//BAUD RATE DIVISOR TO 64
 
 	SPI0_C1 |= SPI_C1_SPE_MASK;//THIS ENABLES SPI0 MODULE
@@ -52,13 +58,13 @@ void SPI_init(){
  *
  */
 
-void SPI_read_byte(uint8_t byte){
+uint8_t SPI_read_byte(uint8_t byte){
 
 	while(!(SPI_S_SPRF_MASK&SPI0_S));
 
 		byte=SPI0_D;//SENDS CHARACTER TO SPI0_D REGISTER
 
-
+		return byte;
 }
 
 /**
@@ -75,10 +81,10 @@ void SPI_read_byte(uint8_t byte){
 
 void SPI_write_byte(uint8_t byte){
 
-	while(!(SPI_S_SPTEF_MASK&SPI0_S));
+	while((SPI0_S&SPI_S_SPTEF_MASK)!=SPI_S_SPTEF_MASK);
 
 	SPI0_D=byte;//SENDS CHARACTER TO SPI0_D REGISTER
-
+	//while(!(SPI_S_SPRF_MASK&SPI0_S));
 }
 
 /**
@@ -92,18 +98,17 @@ void SPI_write_byte(uint8_t byte){
  *
  */
 
-void SPI_send_packet(uint8_* p, size_t length){
+void SPI_send_packet(uint8_t* p,uint8_t length){
 
 		int i;
-		if(p != NULL)
-		{
+
 			for(i=0;i<length;i++)
 			{
 				while(!(SPI_S_SPTEF_MASK&SPI0_S));    // Wait until transmit buffer is empty
 				SPI0_D = *p;                                                // Send the data
 				p++;
 			}
-		}
+
 
 }
 

@@ -29,20 +29,27 @@
  */
 
 #include "MKL25Z4.h"
-
-static int i = 0;
+#include "spi.h"
+#include "nordic.h"
+//static int i = 0;
 
 int main(void)
 {
 
-    /* Write your code here */
+	int a;
+	int b;
+   SPI_init();
+  /* SPI_write_byte(0x08);
+   b=SPI_read_byte(a);
+   int c=0;*/
+   int c=nrf_read_status();
+   nrf_write_config(0x74);
+   a=nrf_read_config();
+   c=0;
 
-    /* This for loop should be replaced. By default this loop allows a single stepping. */
-    for (;;) {
-        i++;
-    }
-    /* Never leave main */
-    return 0;
+
+
+
 }
 ////////////////////////////////////////////////////////////////////////////////
 // EOF
