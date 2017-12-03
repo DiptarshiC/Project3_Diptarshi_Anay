@@ -38,7 +38,7 @@ void SPI_init();
  *
  */
 
-void SPI_read_byte(uint8_t byte);
+uint8_t SPI_read_byte(uint8_t byte);
 
 /**
  * @brief writes a single byte from the SPI bus
@@ -64,7 +64,7 @@ void SPI_write_byte(uint8_t byte);
  *
  */
 
-void SPI_send_packet(uint8_* p, size_t length);
+void SPI_send_packet(uint8_t* p,uint8_t length);
 
 /**
  * @brief Blocks until SPI transmit buffer has completed transmitting
