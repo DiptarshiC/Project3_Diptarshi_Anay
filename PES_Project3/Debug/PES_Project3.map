@@ -1,0 +1,1140 @@
+Archive member included because of file (symbol)
+
+d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+                              ./Sources/conversion.o (__aeabi_uidiv)
+d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+                              d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+                              d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+                              d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o) (_global_impure_ptr)
+d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+                              d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-malloc.o)
+                              ./Sources/cirbuf.o (malloc)
+d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+                              d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-freer.o)
+                              d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-malloc.o) (_free_r)
+d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+                              d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-malloc.o) (_malloc_r)
+d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o)
+                              d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o) (_sbrk_r)
+d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+                              d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o) (errno)
+d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+                              d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o) (_sbrk)
+d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+                              d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+Rx                  0x4               ./Sources/project2.o
+c                   0x1               ./Sources/project2.o
+d                   0x1               ./Sources/main.o
+Tx                  0x4               ./Sources/project2.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .data          0x00000000        0x4 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf.o
+ .text          0x00000000        0x0 ./Sources/cirbuf.o
+ .data          0x00000000        0x0 ./Sources/cirbuf.o
+ .bss           0x00000000        0x0 ./Sources/cirbuf.o
+ .text.CB_init  0x00000000       0x78 ./Sources/cirbuf.o
+ .text.CB_is_full
+                0x00000000       0x48 ./Sources/cirbuf.o
+ .text.CB_peek  0x00000000       0x74 ./Sources/cirbuf.o
+ .text.CB_Destroy
+                0x00000000       0x38 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/conversion.o
+ .text          0x00000000        0x0 ./Sources/conversion.o
+ .data          0x00000000        0x0 ./Sources/conversion.o
+ .bss           0x00000000        0x0 ./Sources/conversion.o
+ .debug_macro   0x00000000      0x802 ./Sources/conversion.o
+ .debug_macro   0x00000000       0x58 ./Sources/conversion.o
+ .debug_macro   0x00000000       0x16 ./Sources/conversion.o
+ .debug_macro   0x00000000       0x35 ./Sources/conversion.o
+ .debug_macro   0x00000000       0xa3 ./Sources/conversion.o
+ .debug_macro   0x00000000       0x10 ./Sources/conversion.o
+ .debug_macro   0x00000000       0x52 ./Sources/conversion.o
+ .debug_macro   0x00000000       0x16 ./Sources/conversion.o
+ .debug_macro   0x00000000       0x43 ./Sources/conversion.o
+ .debug_macro   0x00000000      0x180 ./Sources/conversion.o
+ .debug_macro   0x00000000       0x10 ./Sources/conversion.o
+ .debug_macro   0x00000000       0x22 ./Sources/conversion.o
+ .debug_macro   0x00000000       0xbd ./Sources/conversion.o
+ .debug_macro   0x00000000       0x16 ./Sources/conversion.o
+ .debug_macro   0x00000000      0x14a ./Sources/conversion.o
+ .group         0x00000000        0x8 ./Sources/dma.o
+ .group         0x00000000        0x8 ./Sources/dma.o
+ .group         0x00000000        0x8 ./Sources/dma.o
+ .group         0x00000000        0x8 ./Sources/dma.o
+ .group         0x00000000        0x8 ./Sources/dma.o
+ .group         0x00000000        0x8 ./Sources/dma.o
+ .group         0x00000000        0x8 ./Sources/dma.o
+ .group         0x00000000        0x8 ./Sources/dma.o
+ .group         0x00000000        0x8 ./Sources/dma.o
+ .group         0x00000000        0x8 ./Sources/dma.o
+ .text          0x00000000        0x0 ./Sources/dma.o
+ .data          0x00000000        0x0 ./Sources/dma.o
+ .bss           0x00000000        0x0 ./Sources/dma.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x2c ./Sources/dma.o
+ .text.memmove_dma
+                0x00000000      0x148 ./Sources/dma.o
+ .text.memzero_dma
+                0x00000000      0x144 ./Sources/dma.o
+ .debug_macro   0x00000000      0x802 ./Sources/dma.o
+ .debug_macro   0x00000000       0x16 ./Sources/dma.o
+ .debug_macro   0x00000000       0x44 ./Sources/dma.o
+ .debug_macro   0x00000000      0x209 ./Sources/dma.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
+ .text          0x00000000        0x0 ./Sources/logger.o
+ .data          0x00000000        0x0 ./Sources/logger.o
+ .bss           0x00000000        0x0 ./Sources/logger.o
+ .text.log_data
+                0x00000000       0x24 ./Sources/logger.o
+ .text.log_string
+                0x00000000       0x24 ./Sources/logger.o
+ .debug_macro   0x00000000      0x802 ./Sources/logger.o
+ .debug_macro   0x00000000       0x58 ./Sources/logger.o
+ .debug_macro   0x00000000       0x16 ./Sources/logger.o
+ .debug_macro   0x00000000       0x35 ./Sources/logger.o
+ .debug_macro   0x00000000       0xa3 ./Sources/logger.o
+ .debug_macro   0x00000000       0x16 ./Sources/logger.o
+ .debug_macro   0x00000000      0x10e ./Sources/logger.o
+ .debug_macro   0x00000000       0x7f ./Sources/logger.o
+ .debug_macro   0x00000000       0x4a ./Sources/logger.o
+ .debug_macro   0x00000000       0x52 ./Sources/logger.o
+ .debug_macro   0x00000000       0x16 ./Sources/logger.o
+ .debug_macro   0x00000000       0x43 ./Sources/logger.o
+ .debug_macro   0x00000000      0x180 ./Sources/logger.o
+ .debug_macro   0x00000000       0x22 ./Sources/logger.o
+ .debug_macro   0x00000000      0x20f ./Sources/logger.o
+ .debug_macro   0x00000000       0x4c ./Sources/logger.o
+ .debug_macro   0x00000000       0x3a ./Sources/logger.o
+ .debug_macro   0x00000000       0x26 ./Sources/logger.o
+ .debug_macro   0x00000000      0x306 ./Sources/logger.o
+ .debug_macro   0x00000000       0x63 ./Sources/logger.o
+ .debug_macro   0x00000000     0x839f ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .text          0x00000000        0x0 ./Sources/main.o
+ .data          0x00000000        0x0 ./Sources/main.o
+ .bss           0x00000000        0x0 ./Sources/main.o
+ .data.p.5083   0x00000000        0xc ./Sources/main.o
+ .debug_macro   0x00000000      0x802 ./Sources/main.o
+ .debug_macro   0x00000000       0x16 ./Sources/main.o
+ .debug_macro   0x00000000       0x44 ./Sources/main.o
+ .debug_macro   0x00000000      0x209 ./Sources/main.o
+ .debug_macro   0x00000000       0x3a ./Sources/main.o
+ .debug_macro   0x00000000       0x26 ./Sources/main.o
+ .debug_macro   0x00000000      0x306 ./Sources/main.o
+ .debug_macro   0x00000000       0x63 ./Sources/main.o
+ .debug_macro   0x00000000     0x839f ./Sources/main.o
+ .debug_macro   0x00000000       0x58 ./Sources/main.o
+ .debug_macro   0x00000000       0x35 ./Sources/main.o
+ .debug_macro   0x00000000       0xa3 ./Sources/main.o
+ .debug_macro   0x00000000       0x16 ./Sources/main.o
+ .debug_macro   0x00000000      0x10e ./Sources/main.o
+ .debug_macro   0x00000000       0x7f ./Sources/main.o
+ .debug_macro   0x00000000       0x52 ./Sources/main.o
+ .debug_macro   0x00000000       0x16 ./Sources/main.o
+ .debug_macro   0x00000000       0x43 ./Sources/main.o
+ .debug_macro   0x00000000      0x180 ./Sources/main.o
+ .debug_macro   0x00000000       0x22 ./Sources/main.o
+ .debug_macro   0x00000000       0x22 ./Sources/main.o
+ COMMON         0x00000000        0x1 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .text          0x00000000        0x0 ./Sources/nordic.o
+ .data          0x00000000        0x0 ./Sources/nordic.o
+ .bss           0x00000000        0x0 ./Sources/nordic.o
+ .text.nrf_read_register
+                0x00000000       0x54 ./Sources/nordic.o
+ .text.nrf_write_register
+                0x00000000       0x5c ./Sources/nordic.o
+ .text.nrf_read_status
+                0x00000000       0x30 ./Sources/nordic.o
+ .text.nrf_read_config
+                0x00000000       0x30 ./Sources/nordic.o
+ .text.nrf_write_config
+                0x00000000       0x30 ./Sources/nordic.o
+ .text.nrf_read_rf_setup
+                0x00000000       0x30 ./Sources/nordic.o
+ .text.nrf_write_rf_setup
+                0x00000000       0x30 ./Sources/nordic.o
+ .text.nrf_read_rf_ch
+                0x00000000       0x30 ./Sources/nordic.o
+ .text.nrf_write_rf_ch
+                0x00000000       0x30 ./Sources/nordic.o
+ .text.nrf_read_TX_ADDR
+                0x00000000       0x68 ./Sources/nordic.o
+ .text.nrf_write_TX_ADDR
+                0x00000000       0x6c ./Sources/nordic.o
+ .text.nrf_read_fifo_status
+                0x00000000       0x30 ./Sources/nordic.o
+ .text.nrf_flush_tx_fifo
+                0x00000000       0x34 ./Sources/nordic.o
+ .text.nrf_flush_rx_fifo
+                0x00000000       0x34 ./Sources/nordic.o
+ .debug_info    0x00000000      0x384 ./Sources/nordic.o
+ .debug_abbrev  0x00000000      0x13f ./Sources/nordic.o
+ .debug_aranges
+                0x00000000       0x88 ./Sources/nordic.o
+ .debug_ranges  0x00000000       0x78 ./Sources/nordic.o
+ .debug_macro   0x00000000      0x13a ./Sources/nordic.o
+ .debug_macro   0x00000000      0x802 ./Sources/nordic.o
+ .debug_macro   0x00000000       0x16 ./Sources/nordic.o
+ .debug_macro   0x00000000       0x44 ./Sources/nordic.o
+ .debug_macro   0x00000000      0x209 ./Sources/nordic.o
+ .debug_macro   0x00000000       0x58 ./Sources/nordic.o
+ .debug_macro   0x00000000       0x35 ./Sources/nordic.o
+ .debug_macro   0x00000000       0xa3 ./Sources/nordic.o
+ .debug_macro   0x00000000       0x16 ./Sources/nordic.o
+ .debug_macro   0x00000000      0x10e ./Sources/nordic.o
+ .debug_macro   0x00000000       0x7f ./Sources/nordic.o
+ .debug_macro   0x00000000       0x52 ./Sources/nordic.o
+ .debug_macro   0x00000000       0x16 ./Sources/nordic.o
+ .debug_macro   0x00000000       0x43 ./Sources/nordic.o
+ .debug_macro   0x00000000      0x180 ./Sources/nordic.o
+ .debug_macro   0x00000000       0x22 ./Sources/nordic.o
+ .debug_macro   0x00000000       0x4c ./Sources/nordic.o
+ .debug_macro   0x00000000       0x3a ./Sources/nordic.o
+ .debug_macro   0x00000000       0x26 ./Sources/nordic.o
+ .debug_macro   0x00000000      0x306 ./Sources/nordic.o
+ .debug_macro   0x00000000       0x63 ./Sources/nordic.o
+ .debug_macro   0x00000000     0x839f ./Sources/nordic.o
+ .debug_macro   0x00000000       0x88 ./Sources/nordic.o
+ .debug_line    0x00000000      0x3b3 ./Sources/nordic.o
+ .debug_str     0x00000000    0x3378e ./Sources/nordic.o
+ .comment       0x00000000       0x71 ./Sources/nordic.o
+ .ARM.attributes
+                0x00000000       0x32 ./Sources/nordic.o
+ .debug_frame   0x00000000      0x1d0 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/project2.o
+ .text          0x00000000        0x0 ./Sources/project2.o
+ .data          0x00000000        0x0 ./Sources/project2.o
+ .bss           0x00000000        0x0 ./Sources/project2.o
+ .bss.i         0x00000000        0x4 ./Sources/project2.o
+ .data.length   0x00000000        0x1 ./Sources/project2.o
+ .text.project2
+                0x00000000       0x74 ./Sources/project2.o
+ .debug_macro   0x00000000      0x802 ./Sources/project2.o
+ .debug_macro   0x00000000       0x16 ./Sources/project2.o
+ .debug_macro   0x00000000       0x44 ./Sources/project2.o
+ .debug_macro   0x00000000      0x209 ./Sources/project2.o
+ .debug_macro   0x00000000       0x58 ./Sources/project2.o
+ .debug_macro   0x00000000       0x35 ./Sources/project2.o
+ .debug_macro   0x00000000       0xa3 ./Sources/project2.o
+ .debug_macro   0x00000000       0x16 ./Sources/project2.o
+ .debug_macro   0x00000000      0x10e ./Sources/project2.o
+ .debug_macro   0x00000000       0x7f ./Sources/project2.o
+ .debug_macro   0x00000000       0x52 ./Sources/project2.o
+ .debug_macro   0x00000000       0x16 ./Sources/project2.o
+ .debug_macro   0x00000000       0x43 ./Sources/project2.o
+ .debug_macro   0x00000000      0x180 ./Sources/project2.o
+ .debug_macro   0x00000000       0x22 ./Sources/project2.o
+ .debug_macro   0x00000000       0x1c ./Sources/project2.o
+ .debug_macro   0x00000000       0x35 ./Sources/project2.o
+ .debug_macro   0x00000000       0x10 ./Sources/project2.o
+ .debug_macro   0x00000000       0x10 ./Sources/project2.o
+ .debug_macro   0x00000000       0x22 ./Sources/project2.o
+ .debug_macro   0x00000000       0xbd ./Sources/project2.o
+ .debug_macro   0x00000000       0x16 ./Sources/project2.o
+ .debug_macro   0x00000000      0x14a ./Sources/project2.o
+ .debug_macro   0x00000000       0x4c ./Sources/project2.o
+ .debug_macro   0x00000000       0x3a ./Sources/project2.o
+ .debug_macro   0x00000000       0x26 ./Sources/project2.o
+ .debug_macro   0x00000000      0x306 ./Sources/project2.o
+ .debug_macro   0x00000000       0x63 ./Sources/project2.o
+ .debug_macro   0x00000000     0x839f ./Sources/project2.o
+ .debug_macro   0x00000000       0x22 ./Sources/project2.o
+ .group         0x00000000        0x8 ./Sources/spi.o
+ .group         0x00000000        0x8 ./Sources/spi.o
+ .group         0x00000000        0x8 ./Sources/spi.o
+ .group         0x00000000        0x8 ./Sources/spi.o
+ .group         0x00000000        0x8 ./Sources/spi.o
+ .group         0x00000000        0x8 ./Sources/spi.o
+ .group         0x00000000        0x8 ./Sources/spi.o
+ .group         0x00000000        0x8 ./Sources/spi.o
+ .group         0x00000000        0x8 ./Sources/spi.o
+ .group         0x00000000        0x8 ./Sources/spi.o
+ .text          0x00000000        0x0 ./Sources/spi.o
+ .data          0x00000000        0x0 ./Sources/spi.o
+ .bss           0x00000000        0x0 ./Sources/spi.o
+ .text.SPI_init
+                0x00000000       0xd8 ./Sources/spi.o
+ .text.SPI_read_byte
+                0x00000000       0x38 ./Sources/spi.o
+ .text.SPI_write_byte
+                0x00000000       0x30 ./Sources/spi.o
+ .text.SPI_send_packet
+                0x00000000       0x50 ./Sources/spi.o
+ .text.SPI_flush
+                0x00000000       0x20 ./Sources/spi.o
+ .debug_info    0x00000000      0x4a6 ./Sources/spi.o
+ .debug_abbrev  0x00000000      0x139 ./Sources/spi.o
+ .debug_aranges
+                0x00000000       0x40 ./Sources/spi.o
+ .debug_ranges  0x00000000       0x30 ./Sources/spi.o
+ .debug_macro   0x00000000       0x88 ./Sources/spi.o
+ .debug_macro   0x00000000      0x802 ./Sources/spi.o
+ .debug_macro   0x00000000       0x16 ./Sources/spi.o
+ .debug_macro   0x00000000       0x44 ./Sources/spi.o
+ .debug_macro   0x00000000      0x209 ./Sources/spi.o
+ .debug_macro   0x00000000       0x4c ./Sources/spi.o
+ .debug_macro   0x00000000       0x3a ./Sources/spi.o
+ .debug_macro   0x00000000       0x26 ./Sources/spi.o
+ .debug_macro   0x00000000      0x306 ./Sources/spi.o
+ .debug_macro   0x00000000       0x63 ./Sources/spi.o
+ .debug_macro   0x00000000     0x839f ./Sources/spi.o
+ .debug_line    0x00000000      0x263 ./Sources/spi.o
+ .debug_str     0x00000000    0x31f16 ./Sources/spi.o
+ .comment       0x00000000       0x71 ./Sources/spi.o
+ .ARM.attributes
+                0x00000000       0x32 ./Sources/spi.o
+ .debug_frame   0x00000000       0xa8 ./Sources/spi.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .group         0x00000000        0x8 ./Sources/uart.o
+ .text          0x00000000        0x0 ./Sources/uart.o
+ .data          0x00000000        0x0 ./Sources/uart.o
+ .bss           0x00000000        0x0 ./Sources/uart.o
+ .text.UART_send_n
+                0x00000000       0x54 ./Sources/uart.o
+ .text.UART_receive
+                0x00000000       0x38 ./Sources/uart.o
+ .text.UART_receive_n
+                0x00000000       0x58 ./Sources/uart.o
+ .debug_macro   0x00000000      0x802 ./Sources/uart.o
+ .debug_macro   0x00000000       0x16 ./Sources/uart.o
+ .debug_macro   0x00000000       0x16 ./Sources/uart.o
+ .debug_macro   0x00000000       0x44 ./Sources/uart.o
+ .debug_macro   0x00000000      0x209 ./Sources/uart.o
+ .debug_macro   0x00000000       0x3a ./Sources/uart.o
+ .debug_macro   0x00000000       0x3a ./Sources/uart.o
+ .debug_macro   0x00000000       0x26 ./Sources/uart.o
+ .debug_macro   0x00000000      0x306 ./Sources/uart.o
+ .debug_macro   0x00000000       0x63 ./Sources/uart.o
+ .debug_macro   0x00000000     0x839f ./Sources/uart.o
+ .debug_macro   0x00000000       0x22 ./Sources/uart.o
+ .debug_macro   0x00000000       0x58 ./Sources/uart.o
+ .debug_macro   0x00000000       0x35 ./Sources/uart.o
+ .debug_macro   0x00000000       0xa3 ./Sources/uart.o
+ .debug_macro   0x00000000       0x16 ./Sources/uart.o
+ .debug_macro   0x00000000      0x10e ./Sources/uart.o
+ .debug_macro   0x00000000       0x7f ./Sources/uart.o
+ .debug_macro   0x00000000       0x52 ./Sources/uart.o
+ .debug_macro   0x00000000       0x16 ./Sources/uart.o
+ .debug_macro   0x00000000       0x43 ./Sources/uart.o
+ .debug_macro   0x00000000      0x180 ./Sources/uart.o
+ .debug_macro   0x00000000       0x22 ./Sources/uart.o
+ .debug_macro   0x00000000       0x1c ./Sources/uart.o
+ .debug_macro   0x00000000       0x35 ./Sources/uart.o
+ .debug_macro   0x00000000       0x10 ./Sources/uart.o
+ .debug_macro   0x00000000       0x10 ./Sources/uart.o
+ .debug_macro   0x00000000       0x22 ./Sources/uart.o
+ .debug_macro   0x00000000       0xbd ./Sources/uart.o
+ .debug_macro   0x00000000       0x16 ./Sources/uart.o
+ .debug_macro   0x00000000      0x14a ./Sources/uart.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .data.SystemCoreClock
+                0x00000000        0x4 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .text.SystemCoreClockUpdate
+                0x00000000      0x23c ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000      0x802 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x16 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x44 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000      0x209 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x4c ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x3a ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x26 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000      0x306 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000       0x63 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00000000     0x839f ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .text          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ .text          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .text          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-malloc.o)
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-malloc.o)
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-malloc.o)
+ .text.malloc   0x00000000       0x14 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-malloc.o)
+ .text.free     0x00000000       0x14 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x00000000       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-malloc.o)
+ .debug_frame   0x00000000       0x40 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-malloc.o)
+ .text          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .text          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-freer.o)
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-freer.o)
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-freer.o)
+ .text._free_r  0x00000000       0x90 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x00000000       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000000       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-freer.o)
+ .text          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .text._malloc_r
+                0x00000000       0xa8 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_sbrk_start
+                0x00000000        0x4 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_free_list
+                0x00000000        0x4 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x00000000       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-nano-mallocr.o)
+ .text          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x00000000       0x24 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x1a d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xcc d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000000       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ .debug_frame   0x00000000       0x48 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ COMMON         0x00000000        0x4 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ .text          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+ .text._sbrk    0x00000000       0x34 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+ .bss.heap_end.4246
+                0x00000000        0x4 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x00000000       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+ .debug_frame   0x00000000       0x20 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(sbrk.o)
+ .text          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .eh_frame      0x00000000        0x4 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .text          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+ .data          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+ .bss           0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x00000100         xr
+m_flash_config   0x00000400         0x00000010         xr
+m_text           0x00000410         0x0001fbf0         xr
+m_data           0x1ffff000         0x00004000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+LOAD ./Sources/cirbuf.o
+LOAD ./Sources/conversion.o
+LOAD ./Sources/dma.o
+LOAD ./Sources/logger.o
+LOAD ./Sources/main.o
+LOAD ./Sources/nordic.o
+LOAD ./Sources/project2.o
+LOAD ./Sources/spi.o
+LOAD ./Sources/uart.o
+LOAD ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+LOAD ./Project_Settings/Startup_Code/system_MKL25Z4.o
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libstdc++_s.a
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libm.a
+START GROUP
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a
+END GROUP
+START GROUP
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
+END GROUP
+START GROUP
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
+END GROUP
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+                0x00000400                HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x400
+                0x00000400                STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x400
+
+.interrupts     0x00000000       0xc0
+                0x00000000                __VECTOR_TABLE = .
+                0x00000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                0x00000000                __isr_vector
+                0x000000c0                . = ALIGN (0x4)
+
+.flash_config   0x00000400       0x10
+                0x00000400                . = ALIGN (0x4)
+ *(.FlashConfig)
+ .FlashConfig   0x00000400       0x10 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                0x00000410                . = ALIGN (0x4)
+
+.text           0x00000410      0xca0
+                0x00000410                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000410       0x60 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .text          0x00000470       0x78 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x00000470                _start
+                0x00000470                _mainCRTStartup
+ .text          0x000004e8       0x34 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                0x000004e8                Reset_Handler
+                0x00000514                HardFault_Handler
+                0x00000514                SysTick_Handler
+                0x00000514                PendSV_Handler
+                0x00000514                NMI_Handler
+                0x00000514                I2C1_IRQHandler
+                0x00000514                UART1_IRQHandler
+                0x00000514                DMA2_IRQHandler
+                0x00000514                TPM0_IRQHandler
+                0x00000514                LLWU_IRQHandler
+                0x00000514                TSI0_IRQHandler
+                0x00000514                ADC0_IRQHandler
+                0x00000514                Reserved39_IRQHandler
+                0x00000514                SPI1_IRQHandler
+                0x00000514                DefaultISR
+                0x00000514                PORTD_IRQHandler
+                0x00000514                TPM2_IRQHandler
+                0x00000514                RTC_IRQHandler
+                0x00000514                I2C0_IRQHandler
+                0x00000514                RTC_Seconds_IRQHandler
+                0x00000514                MCG_IRQHandler
+                0x00000514                UART2_IRQHandler
+                0x00000514                Reserved20_IRQHandler
+                0x00000514                USB0_IRQHandler
+                0x00000514                PIT_IRQHandler
+                0x00000514                SVC_Handler
+                0x00000514                DMA3_IRQHandler
+                0x00000514                DAC0_IRQHandler
+                0x00000514                Reserved45_IRQHandler
+                0x00000514                TPM1_IRQHandler
+                0x00000514                LVD_LVW_IRQHandler
+                0x00000514                SPI0_IRQHandler
+                0x00000514                PORTA_IRQHandler
+                0x00000514                FTFA_IRQHandler
+                0x00000514                LPTMR0_IRQHandler
+                0x00000514                CMP0_IRQHandler
+                0x00000514                DMA1_IRQHandler
+ .text          0x0000051c       0x9c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+                0x0000051c                __aeabi_uidiv
+                0x0000051c                __udivsi3
+                0x000005a4                __aeabi_uidivmod
+ .text          0x000005b8        0x4 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x000005b8                __aeabi_idiv0
+                0x000005b8                __aeabi_ldiv0
+ *(.text*)
+ .text.CB_is_empty
+                0x000005bc       0x40 ./Sources/cirbuf.o
+                0x000005bc                CB_is_empty
+ .text.CB_buffer_add_item
+                0x000005fc       0xb8 ./Sources/cirbuf.o
+                0x000005fc                CB_buffer_add_item
+ .text.CB_buffer_remove_item
+                0x000006b4       0xb8 ./Sources/cirbuf.o
+                0x000006b4                CB_buffer_remove_item
+ .text.my_itoa  0x0000076c      0x188 ./Sources/conversion.o
+                0x0000076c                my_itoa
+ .text.DMA0_IRQHandler
+                0x000008f4       0x40 ./Sources/dma.o
+                0x000008f4                DMA0_IRQHandler
+ .text.log_integer
+                0x00000934       0x44 ./Sources/logger.o
+                0x00000934                log_integer
+ .text.main     0x00000978       0x14 ./Sources/main.o
+                0x00000978                main
+ .text.getCount
+                0x0000098c      0x154 ./Sources/project2.o
+                0x0000098c                getCount
+ .text.printStats
+                0x00000ae0      0x2c0 ./Sources/project2.o
+                0x00000ae0                printStats
+ .text.NVIC_EnableIRQ
+                0x00000da0       0x2c ./Sources/uart.o
+ .text.UART_configure
+                0x00000dcc       0xd4 ./Sources/uart.o
+                0x00000dcc                UART_configure
+ .text.UART_send
+                0x00000ea0       0x30 ./Sources/uart.o
+                0x00000ea0                UART_send
+ .text.UART0_IRQHandler
+                0x00000ed0       0xe4 ./Sources/uart.o
+                0x00000ed0                UART0_IRQHandler
+ .text.SystemInit
+                0x00000fb4       0x18 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+                0x00000fb4                SystemInit
+ .text.exit     0x00000fcc       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+                0x00000fcc                exit
+ .text.__libc_init_array
+                0x00000ff8       0x4c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+                0x00000ff8                __libc_init_array
+ .text.memset   0x00001044       0x10 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+                0x00001044                memset
+ .text._exit    0x00001054        0x4 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+                0x00001054                _exit
+ *(.rodata)
+ .rodata        0x00001058       0x38 ./Sources/project2.o
+ *(.rodata*)
+ .rodata.str1.1
+                0x00001090        0x2 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ *fill*         0x00001092        0x2 
+ .rodata._global_impure_ptr
+                0x00001094        0x4 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+                0x00001094                _global_impure_ptr
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x00001098        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ *(.init)
+ .init          0x00001098        0x4 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+                0x00001098                _init
+ .init          0x0000109c        0x8 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+ *(.fini)
+ .fini          0x000010a4        0x4 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+                0x000010a4                _fini
+ .fini          0x000010a8        0x8 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+                0x000010b0                . = ALIGN (0x4)
+
+.vfp11_veneer   0x000010b0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x000010b0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x000010b0        0x0
+ .iplt          0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x000010b0        0x8
+                0x000010b0                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x000010b0        0x8 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x000010b8                __exidx_end = .
+
+.rel.dyn        0x000010b8        0x0
+ .rel.iplt      0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+
+.ctors          0x000010b8        0x0
+                0x000010b8                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x000010b8                __CTOR_END__ = .
+
+.dtors          0x000010b8        0x0
+                0x000010b8                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x000010b8                __DTOR_END__ = .
+
+.preinit_array  0x000010b8        0x0
+                0x000010b8                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x000010b8                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x000010b8        0x4
+                0x000010b8                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x000010b8        0x4 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+                0x000010bc                PROVIDE (__init_array_end, .)
+
+.fini_array     0x000010bc        0x4
+                0x000010bc                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x000010bc        0x4 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+                0x000010c0                PROVIDE (__fini_array_end, .)
+                0x000010c0                __etext = .
+                0x000010c0                __DATA_ROM = .
+
+.mtb            0x1ffff000        0x0
+                0x1ffff000                . = ALIGN (0x8)
+                0x1ffff000                _mtb_start = .
+ *(.mtb_buf)
+                0x1ffff000                . = ALIGN (0x8)
+                0x1ffff000                _mtb_end = .
+
+.data           0x1ffff000       0x64 load address 0x000010c0
+                0x1ffff000                . = ALIGN (0x4)
+                0x1ffff000                __DATA_RAM = .
+                0x1ffff000                __data_start__ = .
+ *(.data)
+ *(.data*)
+ .data.impure_data
+                0x1ffff000       0x60 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ *(.jcr*)
+ .jcr           0x1ffff060        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .jcr           0x1ffff060        0x4 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+                0x1ffff064                . = ALIGN (0x4)
+                0x1ffff064                __data_end__ = .
+                0x00001124                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+
+.igot.plt       0x1ffff064        0x0 load address 0x00001124
+ .igot.plt      0x00000000        0x0 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+
+.bss            0x1ffff064       0x30 load address 0x00001124
+                0x1ffff064                . = ALIGN (0x4)
+                0x1ffff064                __START_BSS = .
+                0x1ffff064                __bss_start__ = .
+ *(.bss)
+ .bss           0x1ffff064       0x1c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ *(.bss*)
+ .bss.alpha     0x1ffff080        0x1 ./Sources/project2.o
+                0x1ffff080                alpha
+ .bss.num       0x1ffff081        0x1 ./Sources/project2.o
+                0x1ffff081                num
+ .bss.punc      0x1ffff082        0x1 ./Sources/project2.o
+                0x1ffff082                punc
+ .bss.misc      0x1ffff083        0x1 ./Sources/project2.o
+                0x1ffff083                misc
+ .bss.e.5740    0x1ffff084        0x1 ./Sources/uart.o
+ *(COMMON)
+ *fill*         0x1ffff085        0x3 
+ COMMON         0x1ffff088        0xc ./Sources/project2.o
+                0x1ffff088                Rx
+                0x1ffff08c                c
+                0x1ffff090                Tx
+                0x1ffff094                . = ALIGN (0x4)
+                0x1ffff094                __bss_end__ = .
+                0x1ffff094                __END_BSS = .
+
+.heap           0x1ffff094      0x404 load address 0x00001154
+                0x1ffff098                . = ALIGN (0x8)
+ *fill*         0x1ffff094        0x4 
+                0x1ffff098                __end__ = .
+                0x1ffff098                PROVIDE (end, .)
+                0x1ffff098                __HeapBase = .
+                0x1ffff498                . = (. + HEAP_SIZE)
+ *fill*         0x1ffff098      0x400 
+                0x1ffff498                __HeapLimit = .
+
+.stack          0x1ffff498      0x400 load address 0x00001558
+                0x1ffff498                . = ALIGN (0x8)
+                0x1ffff898                . = (. + STACK_SIZE)
+ *fill*         0x1ffff498      0x400 
+                0x20003000                __StackTop = (ORIGIN (m_data) + 0x4000)
+                0x20002c00                __StackLimit = (__StackTop - STACK_SIZE)
+                0x20003000                PROVIDE (__stack, __StackTop)
+
+.ARM.attributes
+                0x00000000       0x28
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x32 ./Sources/cirbuf.o
+ .ARM.attributes
+                0x00000097       0x32 ./Sources/conversion.o
+ .ARM.attributes
+                0x000000c9       0x32 ./Sources/dma.o
+ .ARM.attributes
+                0x000000fb       0x32 ./Sources/logger.o
+ .ARM.attributes
+                0x0000012d       0x32 ./Sources/main.o
+ .ARM.attributes
+                0x0000015f       0x32 ./Sources/project2.o
+ .ARM.attributes
+                0x00000191       0x32 ./Sources/uart.o
+ .ARM.attributes
+                0x000001c3       0x1b ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .ARM.attributes
+                0x000001de       0x32 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .ARM.attributes
+                0x00000210       0x1e d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000022e       0x1e d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000024c       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000278       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000002a4       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .ARM.attributes
+                0x000002d0       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000002fc       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000328       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .ARM.attributes
+                0x00000354       0x1e d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data overflowed with stack and heap)
+OUTPUT(PES_Project3.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x1e91
+ .debug_info    0x00000000      0x336 ./Sources/cirbuf.o
+ .debug_info    0x00000336      0x172 ./Sources/conversion.o
+ .debug_info    0x000004a8      0x689 ./Sources/dma.o
+ .debug_info    0x00000b31      0x154 ./Sources/logger.o
+ .debug_info    0x00000c85       0xfa ./Sources/main.o
+ .debug_info    0x00000d7f      0x493 ./Sources/project2.o
+ .debug_info    0x00001212      0x814 ./Sources/uart.o
+ .debug_info    0x00001a26       0x7e ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_info    0x00001aa4      0x3ed ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_abbrev   0x00000000      0x8ea
+ .debug_abbrev  0x00000000       0xf6 ./Sources/cirbuf.o
+ .debug_abbrev  0x000000f6       0xa4 ./Sources/conversion.o
+ .debug_abbrev  0x0000019a      0x19f ./Sources/dma.o
+ .debug_abbrev  0x00000339       0xb6 ./Sources/logger.o
+ .debug_abbrev  0x000003ef       0x97 ./Sources/main.o
+ .debug_abbrev  0x00000486      0x15b ./Sources/project2.o
+ .debug_abbrev  0x000005e1      0x1ec ./Sources/uart.o
+ .debug_abbrev  0x000007cd       0x14 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_abbrev  0x000007e1      0x109 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_aranges  0x00000000      0x1c0
+ .debug_aranges
+                0x00000000       0x50 ./Sources/cirbuf.o
+ .debug_aranges
+                0x00000050       0x20 ./Sources/conversion.o
+ .debug_aranges
+                0x00000070       0x38 ./Sources/dma.o
+ .debug_aranges
+                0x000000a8       0x30 ./Sources/logger.o
+ .debug_aranges
+                0x000000d8       0x20 ./Sources/main.o
+ .debug_aranges
+                0x000000f8       0x30 ./Sources/project2.o
+ .debug_aranges
+                0x00000128       0x50 ./Sources/uart.o
+ .debug_aranges
+                0x00000178       0x20 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_aranges
+                0x00000198       0x28 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_ranges   0x00000000      0x120
+ .debug_ranges  0x00000000       0x40 ./Sources/cirbuf.o
+ .debug_ranges  0x00000040       0x10 ./Sources/conversion.o
+ .debug_ranges  0x00000050       0x28 ./Sources/dma.o
+ .debug_ranges  0x00000078       0x20 ./Sources/logger.o
+ .debug_ranges  0x00000098       0x10 ./Sources/main.o
+ .debug_ranges  0x000000a8       0x20 ./Sources/project2.o
+ .debug_ranges  0x000000c8       0x40 ./Sources/uart.o
+ .debug_ranges  0x00000108       0x18 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_macro    0x00000000     0xa806
+ .debug_macro   0x00000000      0x139 ./Sources/cirbuf.o
+ .debug_macro   0x00000139      0x802 ./Sources/cirbuf.o
+ .debug_macro   0x0000093b       0x16 ./Sources/cirbuf.o
+ .debug_macro   0x00000951       0x44 ./Sources/cirbuf.o
+ .debug_macro   0x00000995      0x209 ./Sources/cirbuf.o
+ .debug_macro   0x00000b9e       0x58 ./Sources/cirbuf.o
+ .debug_macro   0x00000bf6       0x35 ./Sources/cirbuf.o
+ .debug_macro   0x00000c2b       0xa3 ./Sources/cirbuf.o
+ .debug_macro   0x00000cce       0x16 ./Sources/cirbuf.o
+ .debug_macro   0x00000ce4      0x10e ./Sources/cirbuf.o
+ .debug_macro   0x00000df2       0x7f ./Sources/cirbuf.o
+ .debug_macro   0x00000e71       0x52 ./Sources/cirbuf.o
+ .debug_macro   0x00000ec3       0x16 ./Sources/cirbuf.o
+ .debug_macro   0x00000ed9       0x43 ./Sources/cirbuf.o
+ .debug_macro   0x00000f1c      0x180 ./Sources/cirbuf.o
+ .debug_macro   0x0000109c       0x22 ./Sources/cirbuf.o
+ .debug_macro   0x000010be       0x1c ./Sources/cirbuf.o
+ .debug_macro   0x000010da       0x35 ./Sources/cirbuf.o
+ .debug_macro   0x0000110f       0x10 ./Sources/cirbuf.o
+ .debug_macro   0x0000111f       0x10 ./Sources/cirbuf.o
+ .debug_macro   0x0000112f       0x22 ./Sources/cirbuf.o
+ .debug_macro   0x00001151       0xbd ./Sources/cirbuf.o
+ .debug_macro   0x0000120e       0x16 ./Sources/cirbuf.o
+ .debug_macro   0x00001224      0x14a ./Sources/cirbuf.o
+ .debug_macro   0x0000136e      0x108 ./Sources/conversion.o
+ .debug_macro   0x00001476       0x16 ./Sources/conversion.o
+ .debug_macro   0x0000148c       0x97 ./Sources/conversion.o
+ .debug_macro   0x00001523       0xef ./Sources/conversion.o
+ .debug_macro   0x00001612       0x4a ./Sources/conversion.o
+ .debug_macro   0x0000165c      0x20f ./Sources/conversion.o
+ .debug_macro   0x0000186b       0x88 ./Sources/dma.o
+ .debug_macro   0x000018f3       0x4c ./Sources/dma.o
+ .debug_macro   0x0000193f       0x3a ./Sources/dma.o
+ .debug_macro   0x00001979       0x26 ./Sources/dma.o
+ .debug_macro   0x0000199f      0x306 ./Sources/dma.o
+ .debug_macro   0x00001ca5       0x63 ./Sources/dma.o
+ .debug_macro   0x00001d08     0x839f ./Sources/dma.o
+ .debug_macro   0x0000a0a7      0x144 ./Sources/logger.o
+ .debug_macro   0x0000a1eb       0x22 ./Sources/logger.o
+ .debug_macro   0x0000a20d      0x16c ./Sources/main.o
+ .debug_macro   0x0000a379       0x16 ./Sources/main.o
+ .debug_macro   0x0000a38f       0x3a ./Sources/main.o
+ .debug_macro   0x0000a3c9       0x88 ./Sources/main.o
+ .debug_macro   0x0000a451      0x19c ./Sources/project2.o
+ .debug_macro   0x0000a5ed      0x19b ./Sources/uart.o
+ .debug_macro   0x0000a788       0x7e ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_line     0x00000000     0x171e
+ .debug_line    0x00000000      0x2fb ./Sources/cirbuf.o
+ .debug_line    0x000002fb      0x276 ./Sources/conversion.o
+ .debug_line    0x00000571      0x249 ./Sources/dma.o
+ .debug_line    0x000007ba      0x2b0 ./Sources/logger.o
+ .debug_line    0x00000a6a      0x28f ./Sources/main.o
+ .debug_line    0x00000cf9      0x3b3 ./Sources/project2.o
+ .debug_line    0x000010ac      0x3a3 ./Sources/uart.o
+ .debug_line    0x0000144f       0x7b ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_line    0x000014ca      0x254 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_str      0x00000000    0x34392
+ .debug_str     0x00000000     0x4d95 ./Sources/cirbuf.o
+                               0x4f6c (size before relaxing)
+ .debug_str     0x00004d95       0x78 ./Sources/conversion.o
+                               0x4dd0 (size before relaxing)
+ .debug_str     0x00004e0d    0x2f082 ./Sources/dma.o
+                              0x32110 (size before relaxing)
+ .debug_str     0x00033e8f       0xd0 ./Sources/logger.o
+                              0x334b4 (size before relaxing)
+ .debug_str     0x00033f5f      0x26c ./Sources/main.o
+                              0x336c6 (size before relaxing)
+ .debug_str     0x000341cb       0x96 ./Sources/project2.o
+                              0x33f4d (size before relaxing)
+ .debug_str     0x00034261       0x9a ./Sources/uart.o
+                              0x3425b (size before relaxing)
+ .debug_str     0x000342fb       0x97 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+                              0x31efc (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./Sources/cirbuf.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./Sources/conversion.o
+ .comment       0x00000000       0x71 ./Sources/dma.o
+ .comment       0x00000000       0x71 ./Sources/logger.o
+ .comment       0x00000000       0x71 ./Sources/main.o
+ .comment       0x00000000       0x71 ./Sources/project2.o
+ .comment       0x00000000       0x71 ./Sources/uart.o
+ .comment       0x00000000       0x71 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+
+.debug_frame    0x00000000      0x4ac
+ .debug_frame   0x00000000       0xf0 ./Sources/cirbuf.o
+ .debug_frame   0x000000f0       0x30 ./Sources/conversion.o
+ .debug_frame   0x00000120       0x90 ./Sources/dma.o
+ .debug_frame   0x000001b0       0x70 ./Sources/logger.o
+ .debug_frame   0x00000220       0x30 ./Sources/main.o
+ .debug_frame   0x00000250       0x70 ./Sources/project2.o
+ .debug_frame   0x000002c0       0xec ./Sources/uart.o
+ .debug_frame   0x000003ac       0x4c ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_frame   0x000003f8       0x20 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000418       0x28 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .debug_frame   0x00000440       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .debug_frame   0x0000046c       0x20 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .debug_frame   0x0000048c       0x20 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
