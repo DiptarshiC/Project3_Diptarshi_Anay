@@ -16,6 +16,8 @@
 #include "conversion.h"
 
 
+
+
 /**
  * @brief a function that Takes a pointer to a sequence of bytes and length of bytes to log
  *
@@ -44,9 +46,8 @@ void log_data(uint8_t* src, uint8_t length){
 
 void log_string(uint8_t* src,uint8_t length){
 
-
-
 	UART_send_n( src,length);
+
 
 }
 
@@ -65,13 +66,10 @@ void log_integer(uint8_t integer){
 
 			uint8_t a2[10];
 			uint8_t * ptr2;
-			//uint8_t * ptr3;
 			ptr2 = &a2[0];
-			//ptr3 = &a2[0];
 			ptr2 = my_itoa(integer,ptr2,10);
-			//ptr3 = my_itoa(integer,ptr3,10);
 			uint8_t length2;
-			while(*ptr2!= '\0')
+			while(*ptr2!='\0')
 					{
 						UART_send(ptr2);
 						ptr2++;
@@ -80,5 +78,22 @@ void log_integer(uint8_t integer){
 
 }
 
+/**
+ * @brief a function that blocks until the current logger buffer is empty
+ *
+ *
+ * @param uint8_t
+ *
+ * @return uint8_t
+ *
+ */
 
+void log_flush(uint8_t integer){
+	START_CRITICAL();
+
+
+
+
+	EDN_CRITICAL();
+}
 

@@ -2,6 +2,8 @@
 #include "project2.h"
 #include "uart.h"
 #include "conversion.h"
+#include "logger_queue.h"
+#include "cirbuf2.h"
 
 CB_t * Tx;
 CB_t * Rx;

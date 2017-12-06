@@ -15,6 +15,9 @@
 #include<stdint.h>
 #include "MKL25Z4.h"
 
+#define		START_CRITICAL()	__disable_irq()
+#define		END_CRITICAL()		__enable_irq()
+
 
 /**
  * @brief a function that Takes a pointer to a sequence of bytes and length of bytes to log

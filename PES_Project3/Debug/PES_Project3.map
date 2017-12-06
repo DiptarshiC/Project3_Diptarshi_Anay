@@ -30,8 +30,12 @@ d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../.
 Allocating common symbols
 Common symbol       size              file
 
+logger_buffer       0x14              ./Sources/logger_queue.o
 errno               0x4               d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-reent.o)
+ID                  0x1               ./Sources/logger_queue.o
+LOG1                0x264             ./Sources/logger_queue.o
 Rx                  0x4               ./Sources/project2.o
+error_message       0x1               ./Sources/cirbuf2.o
 c                   0x1               ./Sources/project2.o
 d                   0x1               ./Sources/main.o
 Tx                  0x4               ./Sources/project2.o
@@ -77,6 +81,82 @@ Discarded input sections
  .text.CB_peek  0x00000000       0x74 ./Sources/cirbuf.o
  .text.CB_Destroy
                 0x00000000       0x38 ./Sources/cirbuf.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .group         0x00000000        0x8 ./Sources/cirbuf2.o
+ .text          0x00000000        0x0 ./Sources/cirbuf2.o
+ .data          0x00000000        0x0 ./Sources/cirbuf2.o
+ .bss           0x00000000        0x0 ./Sources/cirbuf2.o
+ .text.CB_buffer_add_item1
+                0x00000000       0xf0 ./Sources/cirbuf2.o
+ .text.CB_buffer_remove_item1
+                0x00000000       0xec ./Sources/cirbuf2.o
+ .text.CB_is_full1
+                0x00000000       0x80 ./Sources/cirbuf2.o
+ .text.CB_is_empty1
+                0x00000000       0x80 ./Sources/cirbuf2.o
+ .text.CB_init1
+                0x00000000       0x78 ./Sources/cirbuf2.o
+ .text.CB_destroy1
+                0x00000000       0x38 ./Sources/cirbuf2.o
+ .text.CB_peek1
+                0x00000000       0x7c ./Sources/cirbuf2.o
+ .debug_info    0x00000000      0x30c ./Sources/cirbuf2.o
+ .debug_abbrev  0x00000000      0x16f ./Sources/cirbuf2.o
+ .debug_aranges
+                0x00000000       0x50 ./Sources/cirbuf2.o
+ .debug_ranges  0x00000000       0x40 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000      0x13f ./Sources/cirbuf2.o
+ .debug_macro   0x00000000      0x802 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x16 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x44 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000      0x209 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x58 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x35 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0xa3 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x16 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x97 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x10 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0xef ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x52 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x16 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x43 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000      0x180 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x10 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x22 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0xbd ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x16 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000      0x14a ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x16 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x35 ./Sources/cirbuf2.o
+ .debug_macro   0x00000000       0x22 ./Sources/cirbuf2.o
+ .debug_line    0x00000000      0x35b ./Sources/cirbuf2.o
+ .debug_str     0x00000000     0x4f01 ./Sources/cirbuf2.o
+ .comment       0x00000000       0x71 ./Sources/cirbuf2.o
+ .ARM.attributes
+                0x00000000       0x32 ./Sources/cirbuf2.o
+ .debug_frame   0x00000000       0xf0 ./Sources/cirbuf2.o
+ COMMON         0x00000000        0x1 ./Sources/cirbuf2.o
  .group         0x00000000        0x8 ./Sources/conversion.o
  .group         0x00000000        0x8 ./Sources/conversion.o
  .group         0x00000000        0x8 ./Sources/conversion.o
@@ -105,7 +185,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Sources/conversion.o
  .debug_macro   0x00000000       0x35 ./Sources/conversion.o
  .debug_macro   0x00000000       0xa3 ./Sources/conversion.o
+ .debug_macro   0x00000000       0x16 ./Sources/conversion.o
+ .debug_macro   0x00000000       0x97 ./Sources/conversion.o
  .debug_macro   0x00000000       0x10 ./Sources/conversion.o
+ .debug_macro   0x00000000       0xef ./Sources/conversion.o
  .debug_macro   0x00000000       0x52 ./Sources/conversion.o
  .debug_macro   0x00000000       0x16 ./Sources/conversion.o
  .debug_macro   0x00000000       0x43 ./Sources/conversion.o
@@ -160,6 +243,7 @@ Discarded input sections
  .group         0x00000000        0x8 ./Sources/logger.o
  .group         0x00000000        0x8 ./Sources/logger.o
  .group         0x00000000        0x8 ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger.o
  .text          0x00000000        0x0 ./Sources/logger.o
  .data          0x00000000        0x0 ./Sources/logger.o
  .bss           0x00000000        0x0 ./Sources/logger.o
@@ -167,6 +251,8 @@ Discarded input sections
                 0x00000000       0x24 ./Sources/logger.o
  .text.log_string
                 0x00000000       0x24 ./Sources/logger.o
+ .text.log_flush
+                0x00000000       0x18 ./Sources/logger.o
  .debug_macro   0x00000000      0x802 ./Sources/logger.o
  .debug_macro   0x00000000       0x58 ./Sources/logger.o
  .debug_macro   0x00000000       0x16 ./Sources/logger.o
@@ -188,6 +274,78 @@ Discarded input sections
  .debug_macro   0x00000000      0x306 ./Sources/logger.o
  .debug_macro   0x00000000       0x63 ./Sources/logger.o
  .debug_macro   0x00000000     0x839f ./Sources/logger.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/logger_queue.o
+ .text          0x00000000        0x0 ./Sources/logger_queue.o
+ .data          0x00000000        0x0 ./Sources/logger_queue.o
+ .bss           0x00000000        0x0 ./Sources/logger_queue.o
+ .rodata        0x00000000       0xdc ./Sources/logger_queue.o
+ .text.log_item
+                0x00000000      0x520 ./Sources/logger_queue.o
+ .debug_info    0x00000000      0x287 ./Sources/logger_queue.o
+ .debug_abbrev  0x00000000       0xdf ./Sources/logger_queue.o
+ .debug_aranges
+                0x00000000       0x20 ./Sources/logger_queue.o
+ .debug_ranges  0x00000000       0x10 ./Sources/logger_queue.o
+ .debug_macro   0x00000000      0x162 ./Sources/logger_queue.o
+ .debug_macro   0x00000000      0x802 ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x16 ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x44 ./Sources/logger_queue.o
+ .debug_macro   0x00000000      0x209 ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x4c ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x3a ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x26 ./Sources/logger_queue.o
+ .debug_macro   0x00000000      0x306 ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x63 ./Sources/logger_queue.o
+ .debug_macro   0x00000000     0x839f ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x58 ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x35 ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0xa3 ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x16 ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x97 ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x10 ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0xef ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x52 ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x16 ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x43 ./Sources/logger_queue.o
+ .debug_macro   0x00000000      0x180 ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x10 ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x22 ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0xbd ./Sources/logger_queue.o
+ .debug_macro   0x00000000       0x16 ./Sources/logger_queue.o
+ .debug_macro   0x00000000      0x14a ./Sources/logger_queue.o
+ .debug_line    0x00000000      0x2ea ./Sources/logger_queue.o
+ .debug_str     0x00000000    0x33f50 ./Sources/logger_queue.o
+ .comment       0x00000000       0x71 ./Sources/logger_queue.o
+ .ARM.attributes
+                0x00000000       0x32 ./Sources/logger_queue.o
+ .debug_frame   0x00000000       0x30 ./Sources/logger_queue.o
+ COMMON         0x00000000      0x27c ./Sources/logger_queue.o
+ .group         0x00000000        0x8 ./Sources/main.o
  .group         0x00000000        0x8 ./Sources/main.o
  .group         0x00000000        0x8 ./Sources/main.o
  .group         0x00000000        0x8 ./Sources/main.o
@@ -237,6 +395,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x180 ./Sources/main.o
  .debug_macro   0x00000000       0x22 ./Sources/main.o
  .debug_macro   0x00000000       0x22 ./Sources/main.o
+ .debug_macro   0x00000000       0x10 ./Sources/main.o
  COMMON         0x00000000        0x1 ./Sources/main.o
  .group         0x00000000        0x8 ./Sources/nordic.o
  .group         0x00000000        0x8 ./Sources/nordic.o
@@ -635,9 +794,11 @@ LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6
 LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
 LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
 LOAD ./Sources/cirbuf.o
+LOAD ./Sources/cirbuf2.o
 LOAD ./Sources/conversion.o
 LOAD ./Sources/dma.o
 LOAD ./Sources/logger.o
+LOAD ./Sources/logger_queue.o
 LOAD ./Sources/main.o
 LOAD ./Sources/nordic.o
 LOAD ./Sources/project2.o
@@ -984,29 +1145,29 @@ LOAD d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6
                 0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data overflowed with stack and heap)
 OUTPUT(PES_Project3.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x1e91
+.debug_info     0x00000000     0x20a8
  .debug_info    0x00000000      0x336 ./Sources/cirbuf.o
  .debug_info    0x00000336      0x172 ./Sources/conversion.o
  .debug_info    0x000004a8      0x689 ./Sources/dma.o
- .debug_info    0x00000b31      0x154 ./Sources/logger.o
- .debug_info    0x00000c85       0xfa ./Sources/main.o
- .debug_info    0x00000d7f      0x493 ./Sources/project2.o
- .debug_info    0x00001212      0x814 ./Sources/uart.o
- .debug_info    0x00001a26       0x7e ./Project_Settings/Startup_Code/startup_MKL25Z4.o
- .debug_info    0x00001aa4      0x3ed ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_info    0x00000b31      0x1a1 ./Sources/logger.o
+ .debug_info    0x00000cd2       0xfa ./Sources/main.o
+ .debug_info    0x00000dcc      0x65d ./Sources/project2.o
+ .debug_info    0x00001429      0x814 ./Sources/uart.o
+ .debug_info    0x00001c3d       0x7e ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_info    0x00001cbb      0x3ed ./Project_Settings/Startup_Code/system_MKL25Z4.o
 
-.debug_abbrev   0x00000000      0x8ea
+.debug_abbrev   0x00000000      0x96a
  .debug_abbrev  0x00000000       0xf6 ./Sources/cirbuf.o
  .debug_abbrev  0x000000f6       0xa4 ./Sources/conversion.o
  .debug_abbrev  0x0000019a      0x19f ./Sources/dma.o
- .debug_abbrev  0x00000339       0xb6 ./Sources/logger.o
- .debug_abbrev  0x000003ef       0x97 ./Sources/main.o
- .debug_abbrev  0x00000486      0x15b ./Sources/project2.o
- .debug_abbrev  0x000005e1      0x1ec ./Sources/uart.o
- .debug_abbrev  0x000007cd       0x14 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
- .debug_abbrev  0x000007e1      0x109 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_abbrev  0x00000339      0x106 ./Sources/logger.o
+ .debug_abbrev  0x0000043f       0x97 ./Sources/main.o
+ .debug_abbrev  0x000004d6      0x18b ./Sources/project2.o
+ .debug_abbrev  0x00000661      0x1ec ./Sources/uart.o
+ .debug_abbrev  0x0000084d       0x14 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_abbrev  0x00000861      0x109 ./Project_Settings/Startup_Code/system_MKL25Z4.o
 
-.debug_aranges  0x00000000      0x1c0
+.debug_aranges  0x00000000      0x1c8
  .debug_aranges
                 0x00000000       0x50 ./Sources/cirbuf.o
  .debug_aranges
@@ -1014,29 +1175,29 @@ OUTPUT(PES_Project3.elf elf32-littlearm)
  .debug_aranges
                 0x00000070       0x38 ./Sources/dma.o
  .debug_aranges
-                0x000000a8       0x30 ./Sources/logger.o
+                0x000000a8       0x38 ./Sources/logger.o
  .debug_aranges
-                0x000000d8       0x20 ./Sources/main.o
+                0x000000e0       0x20 ./Sources/main.o
  .debug_aranges
-                0x000000f8       0x30 ./Sources/project2.o
+                0x00000100       0x30 ./Sources/project2.o
  .debug_aranges
-                0x00000128       0x50 ./Sources/uart.o
+                0x00000130       0x50 ./Sources/uart.o
  .debug_aranges
-                0x00000178       0x20 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                0x00000180       0x20 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
  .debug_aranges
-                0x00000198       0x28 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+                0x000001a0       0x28 ./Project_Settings/Startup_Code/system_MKL25Z4.o
 
-.debug_ranges   0x00000000      0x120
+.debug_ranges   0x00000000      0x128
  .debug_ranges  0x00000000       0x40 ./Sources/cirbuf.o
  .debug_ranges  0x00000040       0x10 ./Sources/conversion.o
  .debug_ranges  0x00000050       0x28 ./Sources/dma.o
- .debug_ranges  0x00000078       0x20 ./Sources/logger.o
- .debug_ranges  0x00000098       0x10 ./Sources/main.o
- .debug_ranges  0x000000a8       0x20 ./Sources/project2.o
- .debug_ranges  0x000000c8       0x40 ./Sources/uart.o
- .debug_ranges  0x00000108       0x18 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_ranges  0x00000078       0x28 ./Sources/logger.o
+ .debug_ranges  0x000000a0       0x10 ./Sources/main.o
+ .debug_ranges  0x000000b0       0x20 ./Sources/project2.o
+ .debug_ranges  0x000000d0       0x40 ./Sources/uart.o
+ .debug_ranges  0x00000110       0x18 ./Project_Settings/Startup_Code/system_MKL25Z4.o
 
-.debug_macro    0x00000000     0xa806
+.debug_macro    0x00000000     0xa6a0
  .debug_macro   0x00000000      0x139 ./Sources/cirbuf.o
  .debug_macro   0x00000139      0x802 ./Sources/cirbuf.o
  .debug_macro   0x0000093b       0x16 ./Sources/cirbuf.o
@@ -1062,55 +1223,53 @@ OUTPUT(PES_Project3.elf elf32-littlearm)
  .debug_macro   0x0000120e       0x16 ./Sources/cirbuf.o
  .debug_macro   0x00001224      0x14a ./Sources/cirbuf.o
  .debug_macro   0x0000136e      0x108 ./Sources/conversion.o
- .debug_macro   0x00001476       0x16 ./Sources/conversion.o
- .debug_macro   0x0000148c       0x97 ./Sources/conversion.o
- .debug_macro   0x00001523       0xef ./Sources/conversion.o
- .debug_macro   0x00001612       0x4a ./Sources/conversion.o
- .debug_macro   0x0000165c      0x20f ./Sources/conversion.o
- .debug_macro   0x0000186b       0x88 ./Sources/dma.o
- .debug_macro   0x000018f3       0x4c ./Sources/dma.o
- .debug_macro   0x0000193f       0x3a ./Sources/dma.o
- .debug_macro   0x00001979       0x26 ./Sources/dma.o
- .debug_macro   0x0000199f      0x306 ./Sources/dma.o
- .debug_macro   0x00001ca5       0x63 ./Sources/dma.o
- .debug_macro   0x00001d08     0x839f ./Sources/dma.o
- .debug_macro   0x0000a0a7      0x144 ./Sources/logger.o
- .debug_macro   0x0000a1eb       0x22 ./Sources/logger.o
- .debug_macro   0x0000a20d      0x16c ./Sources/main.o
- .debug_macro   0x0000a379       0x16 ./Sources/main.o
- .debug_macro   0x0000a38f       0x3a ./Sources/main.o
- .debug_macro   0x0000a3c9       0x88 ./Sources/main.o
- .debug_macro   0x0000a451      0x19c ./Sources/project2.o
- .debug_macro   0x0000a5ed      0x19b ./Sources/uart.o
- .debug_macro   0x0000a788       0x7e ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_macro   0x00001476       0x4a ./Sources/conversion.o
+ .debug_macro   0x000014c0      0x20f ./Sources/conversion.o
+ .debug_macro   0x000016cf       0x88 ./Sources/dma.o
+ .debug_macro   0x00001757       0x4c ./Sources/dma.o
+ .debug_macro   0x000017a3       0x3a ./Sources/dma.o
+ .debug_macro   0x000017dd       0x26 ./Sources/dma.o
+ .debug_macro   0x00001803      0x306 ./Sources/dma.o
+ .debug_macro   0x00001b09       0x63 ./Sources/dma.o
+ .debug_macro   0x00001b6c     0x839f ./Sources/dma.o
+ .debug_macro   0x00009f0b      0x149 ./Sources/logger.o
+ .debug_macro   0x0000a054       0x10 ./Sources/logger.o
+ .debug_macro   0x0000a064       0x22 ./Sources/logger.o
+ .debug_macro   0x0000a086      0x171 ./Sources/main.o
+ .debug_macro   0x0000a1f7       0x16 ./Sources/main.o
+ .debug_macro   0x0000a20d       0x3a ./Sources/main.o
+ .debug_macro   0x0000a247       0x88 ./Sources/main.o
+ .debug_macro   0x0000a2cf      0x1b8 ./Sources/project2.o
+ .debug_macro   0x0000a487      0x19b ./Sources/uart.o
+ .debug_macro   0x0000a622       0x7e ./Project_Settings/Startup_Code/system_MKL25Z4.o
 
-.debug_line     0x00000000     0x171e
+.debug_line     0x00000000     0x175b
  .debug_line    0x00000000      0x2fb ./Sources/cirbuf.o
  .debug_line    0x000002fb      0x276 ./Sources/conversion.o
  .debug_line    0x00000571      0x249 ./Sources/dma.o
- .debug_line    0x000007ba      0x2b0 ./Sources/logger.o
- .debug_line    0x00000a6a      0x28f ./Sources/main.o
- .debug_line    0x00000cf9      0x3b3 ./Sources/project2.o
- .debug_line    0x000010ac      0x3a3 ./Sources/uart.o
- .debug_line    0x0000144f       0x7b ./Project_Settings/Startup_Code/startup_MKL25Z4.o
- .debug_line    0x000014ca      0x254 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_line    0x000007ba      0x2ce ./Sources/logger.o
+ .debug_line    0x00000a88      0x28f ./Sources/main.o
+ .debug_line    0x00000d17      0x3d2 ./Sources/project2.o
+ .debug_line    0x000010e9      0x3a3 ./Sources/uart.o
+ .debug_line    0x0000148c       0x7b ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_line    0x00001507      0x254 ./Project_Settings/Startup_Code/system_MKL25Z4.o
 
-.debug_str      0x00000000    0x34392
- .debug_str     0x00000000     0x4d95 ./Sources/cirbuf.o
+.debug_str      0x00000000    0x345be
+ .debug_str     0x00000000     0x4d8e ./Sources/cirbuf.o
                                0x4f6c (size before relaxing)
- .debug_str     0x00004d95       0x78 ./Sources/conversion.o
+ .debug_str     0x00004d8e       0x78 ./Sources/conversion.o
                                0x4dd0 (size before relaxing)
- .debug_str     0x00004e0d    0x2f082 ./Sources/dma.o
+ .debug_str     0x00004e06    0x2f082 ./Sources/dma.o
                               0x32110 (size before relaxing)
- .debug_str     0x00033e8f       0xd0 ./Sources/logger.o
-                              0x334b4 (size before relaxing)
- .debug_str     0x00033f5f      0x26c ./Sources/main.o
-                              0x336c6 (size before relaxing)
- .debug_str     0x000341cb       0x96 ./Sources/project2.o
-                              0x33f4d (size before relaxing)
- .debug_str     0x00034261       0x9a ./Sources/uart.o
+ .debug_str     0x00033e88      0x134 ./Sources/logger.o
+                              0x33518 (size before relaxing)
+ .debug_str     0x00033fbc      0x26c ./Sources/main.o
+                              0x33705 (size before relaxing)
+ .debug_str     0x00034228      0x273 ./Sources/project2.o
+                              0x34145 (size before relaxing)
+ .debug_str     0x0003449b       0x8c ./Sources/uart.o
                               0x3425b (size before relaxing)
- .debug_str     0x000342fb       0x97 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_str     0x00034527       0x97 ./Project_Settings/Startup_Code/system_MKL25Z4.o
                               0x31efc (size before relaxing)
 
 .comment        0x00000000       0x70
@@ -1124,17 +1283,17 @@ OUTPUT(PES_Project3.elf elf32-littlearm)
  .comment       0x00000000       0x71 ./Sources/uart.o
  .comment       0x00000000       0x71 ./Project_Settings/Startup_Code/system_MKL25Z4.o
 
-.debug_frame    0x00000000      0x4ac
+.debug_frame    0x00000000      0x4cc
  .debug_frame   0x00000000       0xf0 ./Sources/cirbuf.o
  .debug_frame   0x000000f0       0x30 ./Sources/conversion.o
  .debug_frame   0x00000120       0x90 ./Sources/dma.o
- .debug_frame   0x000001b0       0x70 ./Sources/logger.o
- .debug_frame   0x00000220       0x30 ./Sources/main.o
- .debug_frame   0x00000250       0x70 ./Sources/project2.o
- .debug_frame   0x000002c0       0xec ./Sources/uart.o
- .debug_frame   0x000003ac       0x4c ./Project_Settings/Startup_Code/system_MKL25Z4.o
- .debug_frame   0x000003f8       0x20 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
- .debug_frame   0x00000418       0x28 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
- .debug_frame   0x00000440       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
- .debug_frame   0x0000046c       0x20 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
- .debug_frame   0x0000048c       0x20 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
+ .debug_frame   0x000001b0       0x90 ./Sources/logger.o
+ .debug_frame   0x00000240       0x30 ./Sources/main.o
+ .debug_frame   0x00000270       0x70 ./Sources/project2.o
+ .debug_frame   0x000002e0       0xec ./Sources/uart.o
+ .debug_frame   0x000003cc       0x4c ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_frame   0x00000418       0x20 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000438       0x28 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-exit.o)
+ .debug_frame   0x00000460       0x2c d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-init.o)
+ .debug_frame   0x0000048c       0x20 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg_s.a(lib_a-memset.o)
+ .debug_frame   0x000004ac       0x20 d:/kinetis design studio/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)

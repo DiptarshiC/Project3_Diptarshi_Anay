@@ -5,9 +5,11 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Sources/cirbuf.c \
+../Sources/cirbuf2.c \
 ../Sources/conversion.c \
 ../Sources/dma.c \
 ../Sources/logger.c \
+../Sources/logger_queue.c \
 ../Sources/main.c \
 ../Sources/nordic.c \
 ../Sources/project2.c \
@@ -16,9 +18,11 @@ C_SRCS += \
 
 OBJS += \
 ./Sources/cirbuf.o \
+./Sources/cirbuf2.o \
 ./Sources/conversion.o \
 ./Sources/dma.o \
 ./Sources/logger.o \
+./Sources/logger_queue.o \
 ./Sources/main.o \
 ./Sources/nordic.o \
 ./Sources/project2.o \
@@ -27,9 +31,11 @@ OBJS += \
 
 C_DEPS += \
 ./Sources/cirbuf.d \
+./Sources/cirbuf2.d \
 ./Sources/conversion.d \
 ./Sources/dma.d \
 ./Sources/logger.d \
+./Sources/logger_queue.d \
 ./Sources/main.d \
 ./Sources/nordic.d \
 ./Sources/project2.d \
