@@ -12,7 +12,7 @@ C_SRCS += \
 ../Sources/logger_queue.c \
 ../Sources/main.c \
 ../Sources/nordic.c \
-../Sources/project2.c \
+../Sources/project3.c \
 ../Sources/spi.c \
 ../Sources/uart.c 
 
@@ -25,7 +25,7 @@ OBJS += \
 ./Sources/logger_queue.o \
 ./Sources/main.o \
 ./Sources/nordic.o \
-./Sources/project2.o \
+./Sources/project3.o \
 ./Sources/spi.o \
 ./Sources/uart.o 
 
@@ -38,7 +38,7 @@ C_DEPS += \
 ./Sources/logger_queue.d \
 ./Sources/main.d \
 ./Sources/nordic.d \
-./Sources/project2.d \
+./Sources/project3.d \
 ./Sources/spi.d \
 ./Sources/uart.d 
 
