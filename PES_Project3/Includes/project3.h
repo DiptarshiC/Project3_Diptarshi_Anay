@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
-
+int8_t c;
 void project3();
 
 void getCount(int8_t data);

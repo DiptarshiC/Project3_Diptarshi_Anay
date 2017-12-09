@@ -1,8 +1,12 @@
 #include "MKL25Z4.h"
 #include "uart.h"
 #include "cirbuf.h"
-#include "project2.h"
-
+#include "project3.h"
+#include "cirbuf2.h"
+#include "logger.h"
+#include "logger_queue.h"
+#include "dma.h"
+#include "conversion.h"
 CB_t * Tx;
 CB_t * Rx;
 
@@ -106,7 +110,7 @@ void UART0_IRQHandler(void)				//ISR Handler
 	}
 	else if((UART0_C2 & UART0_C2_RIE_MASK) == UART0_C2_RIE_MASK)	//if receiver interrupt
 	{
-		//int8_t count;
+		int8_t count;
 		uint8_t * d = NULL;
 		e = UART0_D;		//receives bit from keyboard
 		if(e != 0)

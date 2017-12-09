@@ -18,6 +18,10 @@
 #define		START_CRITICAL()	__disable_irq()
 #define		END_CRITICAL()		__enable_irq()
 
+uint8_t alphabet;
+uint8_t numeric;
+uint8_t punctuations;
+uint8_t misclleaneous;
 
 /**
  * @brief a function that Takes a pointer to a sequence of bytes and length of bytes to log
@@ -66,7 +70,7 @@ void log_integer(uint8_t integer);
  *
  */
 
-void log_flush(uint8_t integer);
+void log_flush();
 
 
 

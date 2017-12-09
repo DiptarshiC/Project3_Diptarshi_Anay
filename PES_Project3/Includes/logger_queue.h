@@ -15,6 +15,8 @@
 #include "MKL25Z4.h"
 #include "cirbuf2.h"
 
+uint8_t seconds;
+uint8_t minutes;
 typedef enum{
 	LOGGER_INITIALZED,
 	GPIO_INITIALZED,
@@ -41,13 +43,17 @@ typedef struct{
 	uint32_t TIME_STAMP;
 	uint8_t LOG_LENGTH;
 	uint8_t CHECKSUM;
+	uint8_t DATA;
 	uint8_t PAYLOAD_LENGTH[23];
 }LOG;
 
 CB_t1 logger_buffer;
+CB_t1 logger_buffer_payload;
+CB_t1 logger_buffer_RTC;
 
- LOG LOG1[17];
-LOG_ID ID;
+ LOG LOG1[17];//Variable for the structure declared here
+ LOG_ID ID;//Variable for the custom enum
+
 
 
 /**
@@ -62,6 +68,31 @@ LOG_ID ID;
  */
 
 void log_item(LOG_ID ID);
+
+/**
+ * @brief a function that initializes rtc module
+ *
+ *
+ *
+ * @param LOG_ID ID
+ *
+ * @return void
+ *
+ */
+
+void rtc_init();
+
+/**
+ * @brief a function that clocks every second
+ *
+ *
+ *
+ * @param LOG_ID ID
+ *
+ * @return void
+ *
+ */
+void RTC_Seconds_IRQHandler();
 
 
 #endif /* INCLUDES_LOGGER_QUEUE_H_ */

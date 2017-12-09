@@ -33,12 +33,16 @@
 #include "nordic.h"
 #include "uart.h"
 #include<stdint.h>
-#include<logger.h>
+#include"logger.h"
+#include "logger_queue.h"
+#include "conversion.h"
+#include "project3.h"
 //static int i = 0;
 uint8_t d;
-int main(void)
-{
-	uint8_t array4[1];
+
+//int main(void)
+//{
+	//uint8_t array4[1];
 
 	 //memzero_dma(array4, 8);
 
@@ -54,19 +58,36 @@ int main(void)
    a=nrf_read_config();
    c=0;*/
 
-UART_configure();
+//UART_configure();
 
-static uint8_t p[]="DIPTARSHI";
-
+//static uint8_t p[]="DIPTARSHI";
+/*
 //log_string(p,9);
 
 log_integer(100);
+*/
+	//rtc_init();
 
-while(1){
+#define project_3
 
+int main(void)
+{
+	#ifdef project_3
+	project3();
+	#endif
+
+	while(1)
+    {
+
+    }
+    return 0;
 }
 
-}
+
+
+
+
+//}
 ////////////////////////////////////////////////////////////////////////////////
 // EOF
 ////////////////////////////////////////////////////////////////////////////////

@@ -4,6 +4,7 @@
 #include "conversion.h"
 #include "logger_queue.h"
 #include "cirbuf2.h"
+#include "logger.h"
 
 CB_t * Tx;
 CB_t * Rx;
@@ -18,6 +19,8 @@ extern CB_t * Rx;
 
 void project3()
 {
+	rtc_init();
+
 	Tx = malloc(sizeof(CB_t));
 		Tx->buffer = malloc(sizeof(int8_t) * 10);
 		Rx = malloc(sizeof(CB_t));
@@ -30,11 +33,15 @@ void project3()
 
 	void getCount(int8_t c)
 	{
+		log_item(DATA_ANALYSIS_STARTED);
 		UART0_C2 &= ~UART0_C2_TIE_MASK;
 		UART0_C2 &= ~UART0_C2_RIE_MASK;
 		if(c == 13)
 		{
 			printStats();
+			/*log_flush();*/
+
+
 		}
 		else if((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 		{
@@ -57,6 +64,7 @@ void project3()
 	void printStats()
 	{
 		//Serial.println();
+
 		char a1[10] = "Alphabets:";
 		int length1 = 9;
 		char * ptr1;

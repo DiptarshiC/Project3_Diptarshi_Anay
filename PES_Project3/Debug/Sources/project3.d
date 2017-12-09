@@ -3,7 +3,7 @@ Sources/project3.o: ../Sources/project3.c ../Includes/cirbuf.h \
  ../Includes/core_cm0plus.h ../Includes/core_cmInstr.h \
  ../Includes/core_cmFunc.h ../Includes/system_MKL25Z4.h \
  ../Includes/uart.h ../Includes/conversion.h ../Includes/logger_queue.h \
- ../Includes/cirbuf2.h ../Includes/cirbuf2.h
+ ../Includes/cirbuf2.h ../Includes/cirbuf2.h ../Includes/logger.h
 
 ../Includes/cirbuf.h:
 
@@ -30,3 +30,5 @@ Sources/project3.o: ../Sources/project3.c ../Includes/cirbuf.h \
 ../Includes/cirbuf2.h:
 
 ../Includes/cirbuf2.h:
+
+../Includes/logger.h:
