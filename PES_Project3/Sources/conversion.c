@@ -2,11 +2,22 @@
  * conversion.c
  *
  *  Created on: Nov 2, 2017
- *      Author: USER
+ *      Author: Diptarshi Chakraborty
  */
 #include <stdio.h>
 #include <stdint.h>
 #include "conversion.h"
+
+/**
+ * @brief a function that converts a given data into an ascii pointer
+ *
+ *
+ *
+ * @param int32_t data, uint8_t * ptr, uint32_t base
+ *
+ * @return uint8_t * ptr
+ *
+ */
 
 uint8_t * my_itoa(int32_t data, uint8_t * ptr, uint32_t base)
 {
