@@ -1,3 +1,9 @@
+/*****************************************************************************************************************************************
+*@file:cirbuf.c
+*@brief:this file contains all the function definitions of the circular buffer functions.It inherits all the global variables of cirbuf.h
+*@Author:Diptarshi Chakraborty
+*@Date:10/22/2017
+********************************************************************************************************************************************/
 #include <stdint.h>
 #include <stdlib.h>
 #include "cirbuf.h"
