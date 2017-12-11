@@ -9,7 +9,7 @@
 * @file dma.c
 * @brief This file is used to manipulate data in dma as well as direct memory and allocate
 * space in memory
-* @author Anay Gondhalekar & Diptarshi Chakraborty
+* @author Anay Gondhalekar & Diptarshi Chakraborty.
 * @date 12/8/2017
 **/
 #include "MKL25Z4.h"
