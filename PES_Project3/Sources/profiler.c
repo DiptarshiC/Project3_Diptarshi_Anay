@@ -1,9 +1,11 @@
-/*
- * profiler.c
- *
- *  Created on: Dec 8, 2017
- *      Author: Anay
- */
+/**
+* @file profilingFxn.c
+* @brief defines functions to profile standard library versions, non-DMA,
+* non-DMA optimized using -o3 and DMA versions of memmove and memzero/memset.
+* Setting compile time flags will choose the target specific code
+* @author Anay Gondhalekar
+* @date 12/08/2017
+**/
 
 #include "profiler.h"
 #include "memory.h"
