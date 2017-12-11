@@ -178,6 +178,16 @@ int8_t* my_memset(uint8_t* src,size_t length,uint8_t value)
 	return isrc;
 }
 
+void DMA0_IRQHandler(){
 
+	uint32_t i= DMA_DSR_BCR0;
+	// Check source of interupt ; either done bit or CE bit
+		if(DMA_DSR_BCR0 == DMA_DSR_BCR_DONE_MASK)
+		{
+					DMA_DSR_BCR0 |= DMA_DSR_BCR_DONE_MASK;		// CLear done bit
+
+
+
+		}
 
 
