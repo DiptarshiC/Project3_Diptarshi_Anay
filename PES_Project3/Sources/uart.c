@@ -1,3 +1,9 @@
+/**
+  * @file uart.c
+* @brief defines uart operation and provides functions for uart operation and initialization
+* @author Anay
+* @date 12/08/2017
+**/
 #include "MKL25Z4.h"
 #include "uart.h"
 #include "cirbuf.h"
