@@ -1,3 +1,17 @@
+
+/**
+* @file project3.c
+* @brief used for project3 assignment in ECEN5813.  Project includes
+* profiling self written and standard library versions of functions including
+* DMA transfers, circular buffer enhancements, SPI driver interface for a Nordic
+* wireless transceiver, and binary logger.
+*
+* Code can be used for both BeagleBone Black, Linux host machine, and KL25Z. Use
+* appropriate compile time flags for target processors.
+*
+* @author Anay Gondhalekar & Diptarshi Chakraborty
+* @date 12/08/2017
+**/
 #include "cirbuf.h"
 #include "project3.h"
 #include "uart.h"
